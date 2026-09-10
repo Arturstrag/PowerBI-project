@@ -1,0 +1,501 @@
+IDKlienta,NazwaKlienta,Segment,Region,Opiekun,IDGeografii
+K0001,Baltic Solutions Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0002,Pracownia Michał Kaczmarek,B2C,Południe,Tomasz Kowalski,G02
+K0003,Vertex Solutions S.A.,VIP,Wschód,Katarzyna Kamińska,G03
+K0004,Biuro Paweł Mikołajczyk,Detal,Zachód,Michał Lewandowski,G04
+K0005,Proxima Solutions Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0006,Studio Krzysztof Bąk,B2C,Południe,Piotr Szymański,G02
+K0007,Vistula Solutions Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0008,Sklep Mateusz Kowalski,Detal,Zachód,Paweł Woźniak,G04
+K0009,Nexus Solutions S.A.,B2B,Północ,Agnieszka Jankowska,G01
+K0010,Atelier Rafał Witkowski,B2C,Południe,Marcin Kozłowski,G02
+K0011,Metrum Solutions Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0012,Pracownia Daniel Grabowski,Detal,Zachód,Krzysztof Mazur,G04
+K0013,Sfera Solutions Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0014,Biuro Marek Kubiak,B2C,Południe,Jakub Krawczyk,G02
+K0015,Viva Solutions S.A.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0016,Studio Andrzej Wróbel,Detal,Zachód,Mateusz Grabowski,G04
+K0017,Lumen Solutions Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0018,Sklep Cezary Walczak,B2C,Południe,Adam Michalski,G02
+K0019,Vector Solutions Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0020,Atelier Grzegorz Gajewski,Detal,Zachód,Rafał Wieczorek,G04
+K0021,Baltic Trade S.A.,B2B,Północ,Anna Wiśniewska,G01
+K0022,Pracownia Jerzy Szymański,B2C,Południe,Tomasz Kowalski,G02
+K0023,Vertex Trade Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0024,Biuro Konrad Urbański,Detal,Zachód,Michał Lewandowski,G04
+K0025,Proxima Trade Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0026,Studio Norbert Michalski,B2C,Południe,Piotr Szymański,G02
+K0027,Vistula Trade S.A.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0028,Sklep Przemysław Rosiński,Detal,Zachód,Paweł Woźniak,G04
+K0029,Nexus Trade Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0030,Atelier Waldemar Sikora,B2C,Południe,Marcin Kozłowski,G02
+K0031,Metrum Trade Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0032,Pracownia Artur Błaszczyk,Detal,Zachód,Krzysztof Mazur,G04
+K0033,Sfera Trade S.A.,B2B,Północ,Monika Pawłowska,G01
+K0034,Biuro Filip Sadowski,B2C,Południe,Jakub Krawczyk,G02
+K0035,Viva Trade Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0036,Studio Igor Kozłowski,Detal,Zachód,Mateusz Grabowski,G04
+K0037,Lumen Trade Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0038,Sklep Mariusz Sobczak,B2C,Południe,Adam Michalski,G02
+K0039,Vector Trade S.A.,VIP,Wschód,Natalia Nowicka,G03
+K0040,Atelier Michał Majewski,Detal,Zachód,Rafał Wieczorek,G04
+K0041,Baltic Logistics Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0042,Pracownia Paweł Pietrzak,B2C,Południe,Tomasz Kowalski,G02
+K0043,Vertex Logistics Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0044,Biuro Krzysztof Czarnecki,Detal,Zachód,Michał Lewandowski,G04
+K0045,Proxima Logistics S.A.,B2B,Północ,Joanna Zielińska,G01
+K0046,Studio Mateusz Nowak,B2C,Południe,Piotr Szymański,G02
+K0047,Vistula Logistics Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0048,Sklep Rafał Borkowski,Detal,Zachód,Paweł Woźniak,G04
+K0049,Nexus Logistics Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0050,Atelier Daniel Krawczyk,B2C,Południe,Marcin Kozłowski,G02
+K0051,Metrum Logistics S.A.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0052,Pracownia Marek Wasilewski,Detal,Zachód,Krzysztof Mazur,G04
+K0053,Sfera Logistics Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0054,Biuro Andrzej Lis,B2C,Południe,Jakub Krawczyk,G02
+K0055,Viva Logistics Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0056,Studio Cezary Adamczyk,Detal,Zachód,Mateusz Grabowski,G04
+K0057,Lumen Logistics S.A.,B2B,Północ,Karolina Jabłońska,G01
+K0058,Sklep Grzegorz Baran,B2C,Południe,Adam Michalski,G02
+K0059,Vector Logistics Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0060,Atelier Jerzy Lewandowski,Detal,Zachód,Rafał Wieczorek,G04
+K0061,Baltic Technologie Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0062,Pracownia Konrad Cieślak,B2C,Południe,Tomasz Kowalski,G02
+K0063,Vertex Technologie S.A.,VIP,Wschód,Katarzyna Kamińska,G03
+K0064,Biuro Norbert Zając,Detal,Zachód,Michał Lewandowski,G04
+K0065,Proxima Technologie Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0066,Studio Przemysław Kołodziej,B2C,Południe,Piotr Szymański,G02
+K0067,Vistula Technologie Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0068,Sklep Waldemar Bednarek,Detal,Zachód,Paweł Woźniak,G04
+K0069,Nexus Technologie S.A.,B2B,Północ,Agnieszka Jankowska,G01
+K0070,Atelier Artur Kruk,B2C,Południe,Marcin Kozłowski,G02
+K0071,Metrum Technologie Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0072,Pracownia Filip Zawadzki,Detal,Zachód,Krzysztof Mazur,G04
+K0073,Sfera Technologie Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0074,Biuro Igor Woźniak,B2C,Południe,Jakub Krawczyk,G02
+K0075,Viva Technologie S.A.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0076,Studio Mariusz Marciniak,Detal,Zachód,Mateusz Grabowski,G04
+K0077,Lumen Technologie Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0078,Sklep Michał Wieczorek,B2C,Południe,Adam Michalski,G02
+K0079,Vector Technologie Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0080,Atelier Paweł Matuszewski,Detal,Zachód,Rafał Wieczorek,G04
+K0081,Baltic Serwis S.A.,B2B,Północ,Anna Wiśniewska,G01
+K0082,Pracownia Krzysztof Górski,B2C,Południe,Tomasz Kowalski,G02
+K0083,Vertex Serwis Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0084,Biuro Mateusz Szczepański,Detal,Zachód,Michał Lewandowski,G04
+K0085,Proxima Serwis Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0086,Studio Rafał Chmielewski,B2C,Południe,Piotr Szymański,G02
+K0087,Vistula Serwis S.A.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0088,Sklep Daniel Mazur,Detal,Zachód,Paweł Woźniak,G04
+K0089,Nexus Serwis Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0090,Atelier Marek Kaźmierczak,B2C,Południe,Marcin Kozłowski,G02
+K0091,Metrum Serwis Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0092,Pracownia Andrzej Kaczmarek,Detal,Zachód,Krzysztof Mazur,G04
+K0093,Sfera Serwis S.A.,B2B,Północ,Monika Pawłowska,G01
+K0094,Biuro Cezary Mikołajczyk,B2C,Południe,Jakub Krawczyk,G02
+K0095,Viva Serwis Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0096,Studio Grzegorz Bąk,Detal,Zachód,Mateusz Grabowski,G04
+K0097,Lumen Serwis Sp. z o.o.,b2b,Północ,Karolina Jabłońska,G01
+K0098,Sklep Jerzy Kowalski,B2C,Południe,Adam Michalski,G02
+K0099,Vector Serwis S.A.,VIP,Wschód,Natalia Nowicka,G03
+K0100,Atelier Konrad Witkowski,Detal,Zachód,Rafał Wieczorek,G04
+K0101,Baltic Consulting Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0102,Pracownia Norbert Grabowski,B2C,Południe,Tomasz Kowalski,G02
+K0103,Vertex Consulting Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0104,Biuro Przemysław Kubiak,Detal,Zachód,Michał Lewandowski,G04
+K0105,Proxima Consulting S.A.,B2B,Północ,Joanna Zielińska,G01
+K0106,Studio Waldemar Wróbel,B2C,Południe,Piotr Szymański,G02
+K0107,Vistula Consulting Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0108,Sklep Artur Walczak,Detal,Zachód,Paweł Woźniak,G04
+K0109,Nexus Consulting Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0110,Atelier Filip Gajewski,B2C,Południe,Marcin Kozłowski,G02
+K0111,Metrum Consulting S.A.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0112,Pracownia Igor Szymański,Detal,Zachód,Krzysztof Mazur,G04
+K0113,Sfera Consulting Sp. z o.o.,B2B,Polnoc,Monika Pawłowska,G01
+K0114,Biuro Mariusz Urbański,B2C,Południe,Jakub Krawczyk,G02
+K0115,Viva Consulting Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0116,Studio Michał Michalski,Detal,Zachód,Mateusz Grabowski,G04
+K0117,Lumen Consulting S.A.,B2B,Północ,Karolina Jabłońska,G01
+K0118,Sklep Paweł Rosiński,B2C,Południe,Adam Michalski,G02
+K0119,Vector Consulting Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0120,Atelier Krzysztof Sikora,Detal,Zachód,Rafał Wieczorek,G04
+K0121,Baltic Group Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0122,Pracownia Mateusz Błaszczyk,B2C,Południe,Tomasz Kowalski,G02
+K0123,Vertex Group S.A.,VIP,Wschód,Katarzyna Kamińska,G03
+K0124,Biuro Rafał Sadowski,Detal,Zachód,Michał Lewandowski,G04
+K0125,Proxima Group Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0126,Studio Daniel Kozłowski,B2C,Południe,Piotr Szymański,G02
+K0127,Vistula Group Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0128,Sklep Marek Sobczak,Detal,Zachód,Paweł Woźniak,G04
+K0129,Nexus Group S.A.,B2B,Północ,Agnieszka Jankowska,G01
+K0130,Atelier Andrzej Majewski,B2C,Południe,Marcin Kozłowski,G02
+K0131,Metrum Group Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0132,Pracownia Cezary Pietrzak,Detal,Zachód,Krzysztof Mazur,G04
+K0133,Sfera Group Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0134,Biuro Grzegorz Czarnecki,B2C,Południe,Jakub Krawczyk,G02
+K0135,Viva Group S.A.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0136,Studio Jerzy Nowak,Detal,Zachód,Mateusz Grabowski,G04
+K0137,Lumen Group Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0138,Sklep Konrad Borkowski,B2C,Południe,Adam Michalski,G02
+K0139,Vector Group Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0140,Atelier Norbert Krawczyk,Detal,Zachód,Rafał Wieczorek,G04
+K0141,Baltic Partner S.A.,B2B,Północ,Anna Wiśniewska,G01
+K0142,Pracownia Przemysław Wasilewski,B2C,Południe,Tomasz Kowalski,G02
+K0143,Vertex Partner Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0144,Biuro Waldemar Lis,Detal,Zachód,Michał Lewandowski,G04
+K0145,Proxima Partner Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0146,Studio Artur Adamczyk,B2C,Południe,Piotr Szymański,G02
+K0147,Vistula Partner S.A.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0148,Sklep Filip Baran,Detal,Zachód,Paweł Woźniak,G04
+K0149,Nexus Partner Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0150,Atelier Igor Lewandowski,B2C,Południe,Marcin Kozłowski,G02
+K0151,Metrum Partner Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0152,Pracownia Mariusz Cieślak,Detal,Zachód,Krzysztof Mazur,G04
+K0153,Sfera Partner S.A.,B2B,Północ,Monika Pawłowska,G01
+K0154,Biuro Michał Zając,B2C,Południe,Jakub Krawczyk,G02
+K0155,Viva Partner Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0156,Studio Paweł Kołodziej,Detal,Zachód,Mateusz Grabowski,G04
+K0157,Lumen Partner Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0158,Sklep Krzysztof Bednarek,B2C,Południe,Adam Michalski,G02
+K0159,Vector Partner S.A.,VIP,Wschód,Natalia Nowicka,G03
+K0160,Atelier Mateusz Kruk,Detal,Zachód,Rafał Wieczorek,G04
+K0161,Baltic Systemy Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0162,Pracownia Rafał Zawadzki,B2C,Południe,Tomasz Kowalski,G02
+K0163,Vertex Systemy Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0164,Biuro Daniel Woźniak,Detal,Zachód,Michał Lewandowski,G04
+K0165,Proxima Systemy S.A.,B2B,Północ,Joanna Zielińska,G01
+K0166,Studio Marek Marciniak,B2C,Południe,Piotr Szymański,G02
+K0167,Vistula Systemy Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0168,Sklep Andrzej Wieczorek,Detal,Zachód,Paweł Woźniak,G04
+K0169,Nexus Systemy Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0170,Atelier Cezary Matuszewski,B2C,Południe,Marcin Kozłowski,G02
+K0171,Metrum Systemy S.A.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0172,Pracownia Grzegorz Górski,Detal,Zachód,Krzysztof Mazur,G04
+K0173,Sfera Systemy Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0174,Biuro Jerzy Szczepański,B2C,Południe,Jakub Krawczyk,G02
+K0175,Viva Systemy Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0176,Studio Konrad Chmielewski,Detal,Zachód,Mateusz Grabowski,G04
+K0177,Lumen Systemy S.A.,B2B,Północ,Karolina Jabłońska,G01
+K0178,Sklep Norbert Mazur,B2C,Południe,Adam Michalski,G02
+K0179,Vector Systemy Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0180,Atelier Przemysław Kaźmierczak,Detal,Zachód,Rafał Wieczorek,G04
+K0181,Baltic Dystrybucja Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0182,Pracownia Waldemar Kaczmarek,B2C,Południe,Tomasz Kowalski,G02
+K0183,Vertex Dystrybucja S.A.,VIP,Wschód,Katarzyna Kamińska,G03
+K0184,Biuro Artur Mikołajczyk,Detal,Zachód,Michał Lewandowski,G04
+K0185,Proxima Dystrybucja Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0186,Studio Filip Bąk,B2C,Południe,Piotr Szymański,G02
+K0187,Vistula Dystrybucja Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0188,Sklep Igor Kowalski,Detal,Zachód,Paweł Woźniak,G04
+K0189,Nexus Dystrybucja S.A.,B2B,Północ,Agnieszka Jankowska,G01
+K0190,Atelier Mariusz Witkowski,B2C,Południe,Marcin Kozłowski,G02
+K0191,Metrum Dystrybucja Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0192,Pracownia Michał Grabowski,Detal,Zachód,Krzysztof Mazur,G04
+K0193,Sfera Dystrybucja Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0194,Biuro Paweł Kubiak,b2c,Południe,Jakub Krawczyk,G02
+K0195,Viva Dystrybucja S.A.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0196,Studio Krzysztof Wróbel,Detal,Zachód,Mateusz Grabowski,G04
+K0197,Lumen Dystrybucja Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0198,Sklep Mateusz Walczak,B2C,Południe,Adam Michalski,G02
+K0199,Vector Dystrybucja Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0200,Atelier Rafał Gajewski,Detal,Zachód,Rafał Wieczorek,G04
+K0201,Baltic Solutions S.A.,B2B,Północ,Anna Wiśniewska,G01
+K0202,Pracownia Daniel Szymański,B2C,Południe,Tomasz Kowalski,G02
+K0203,Vertex Solutions Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0204,Biuro Marek Urbański,Detal,Zachód,Michał Lewandowski,G04
+K0205,Proxima Solutions Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0206,Studio Andrzej Michalski,B2C,Południe,Piotr Szymański,G02
+K0207,Vistula Solutions S.A.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0208,Sklep Cezary Rosiński,Detal,Zachód,Paweł Woźniak,G04
+K0209,Nexus Solutions Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0210,Atelier Grzegorz Sikora,B2C,Południe,Marcin Kozłowski,G02
+K0211,Metrum Solutions Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0212,Pracownia Jerzy Błaszczyk,Detal,Zachód,Krzysztof Mazur,G04
+K0213,Sfera Solutions S.A.,B2B,Północ,Monika Pawłowska,G01
+K0214,Biuro Konrad Sadowski,B2C,Południe,Jakub Krawczyk,G02
+K0215,Viva Solutions Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0216,Studio Norbert Kozłowski,Detal,Zachód,Mateusz Grabowski,G04
+K0217,Lumen Solutions Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0218,Sklep Przemysław Sobczak,B2C,Południe,Adam Michalski,G02
+K0219,Vector Solutions S.A.,VIP,Wschód,Natalia Nowicka,G03
+K0220,Atelier Waldemar Majewski,Detal,Zachód,Rafał Wieczorek,G04
+K0221,Baltic Trade Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0222,Pracownia Artur Pietrzak,B2C,Południe,Tomasz Kowalski,G02
+K0223,Vertex Trade Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0224,Biuro Filip Czarnecki,Detal,Zachód,Michał Lewandowski,G04
+K0225,Proxima Trade S.A.,B2B,Północ,Joanna Zielińska,G01
+K0226,Studio Igor Nowak,B2C,Polnoc,Piotr Szymański,G02
+K0227,Vistula Trade Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0228,Sklep Mariusz Borkowski,Detal,Zachód,Paweł Woźniak,G04
+K0229,Nexus Trade Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0230,Atelier Michał Krawczyk,B2C,Południe,Marcin Kozłowski,G02
+K0231,Metrum Trade S.A.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0232,Pracownia Paweł Wasilewski,Detal,Zachód,Krzysztof Mazur,G04
+K0233,Sfera Trade Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0234,Biuro Krzysztof Lis,B2C,Południe,Jakub Krawczyk,G02
+K0235,Viva Trade Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0236,Studio Mateusz Adamczyk,Detal,Zachód,Mateusz Grabowski,G04
+K0237,Lumen Trade S.A.,B2B,Północ,Karolina Jabłońska,G01
+K0238,Sklep Rafał Baran,B2C,Południe,Adam Michalski,G02
+K0239,Vector Trade Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0240,Atelier Daniel Lewandowski,Detal,Zachód,Rafał Wieczorek,G04
+K0241,Baltic Logistics Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0242,Pracownia Marek Cieślak,B2C,Południe,Tomasz Kowalski,G02
+K0243,Vertex Logistics S.A.,VIP,Wschód,Katarzyna Kamińska,G03
+K0244,Biuro Andrzej Zając,Detal,Zachód,Michał Lewandowski,G04
+K0245,Proxima Logistics Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0246,Studio Cezary Kołodziej,B2C,Południe,Piotr Szymański,G02
+K0247,Vistula Logistics Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0248,Sklep Grzegorz Bednarek,Detal,Zachód,Paweł Woźniak,G04
+K0249,Nexus Logistics S.A.,B2B,Północ,Agnieszka Jankowska,G01
+K0250,Atelier Jerzy Kruk,B2C,Południe,Marcin Kozłowski,G02
+K0251,Metrum Logistics Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0252,Pracownia Konrad Zawadzki,Detal,Zachód,Krzysztof Mazur,G04
+K0253,Sfera Logistics Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0254,Biuro Norbert Woźniak,B2C,Południe,Jakub Krawczyk,G02
+K0255,Viva Logistics S.A.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0256,Studio Przemysław Marciniak,Detal,Zachód,Mateusz Grabowski,G04
+K0257,Lumen Logistics Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0258,Sklep Waldemar Wieczorek,B2C,Południe,Adam Michalski,G02
+K0259,Vector Logistics Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0260,Atelier Artur Matuszewski,Detal,Zachód,Rafał Wieczorek,G04
+K0261,Baltic Technologie S.A.,B2B,Północ,Anna Wiśniewska,G01
+K0262,Pracownia Filip Górski,B2C,Południe,Tomasz Kowalski,G02
+K0263,Vertex Technologie Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0264,Biuro Igor Szczepański,Detal,Zachód,Michał Lewandowski,G04
+K0265,Proxima Technologie Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0266,Studio Mariusz Chmielewski,B2C,Południe,Piotr Szymański,G02
+K0267,Vistula Technologie S.A.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0268,Sklep Michał Mazur,Detal,Zachód,Paweł Woźniak,G04
+K0269,Nexus Technologie Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0270,Atelier Paweł Kaźmierczak,B2C,Południe,Marcin Kozłowski,G02
+K0271,Metrum Technologie Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0272,Pracownia Krzysztof Kaczmarek,Detal,Zachód,Krzysztof Mazur,G04
+K0273,Sfera Technologie S.A.,B2B,Północ,Monika Pawłowska,G01
+K0274,Biuro Mateusz Mikołajczyk,B2C,Południe,Jakub Krawczyk,G02
+K0275,Viva Technologie Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0276,Studio Rafał Bąk,Detal,Zachód,Mateusz Grabowski,G04
+K0277,Lumen Technologie Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0278,Sklep Daniel Kowalski,B2C,Południe,Adam Michalski,G02
+K0279,Vector Technologie S.A.,VIP,Wschód,Natalia Nowicka,G03
+K0280,Atelier Marek Witkowski,Detal,Zachód,Rafał Wieczorek,G04
+K0281,Baltic Serwis Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0282,Pracownia Andrzej Grabowski,B2C,Południe,Tomasz Kowalski,G02
+K0283,Vertex Serwis Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0284,Biuro Cezary Kubiak,Detal,Zachód,Michał Lewandowski,G04
+K0285,Proxima Serwis S.A.,B2B,Północ,Joanna Zielińska,G01
+K0286,Studio Grzegorz Wróbel,B2C,Południe,Piotr Szymański,G02
+K0287,Vistula Serwis Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0288,Sklep Jerzy Walczak,Detal,Zachód,Paweł Woźniak,G04
+K0289,Nexus Serwis Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0290,Atelier Konrad Gajewski,B2C,Południe,Marcin Kozłowski,G02
+K0291,Metrum Serwis S.A.,vip,Wschód,Ewa Kwiatkowska,G03
+K0292,Pracownia Norbert Szymański,Detal,Zachód,Krzysztof Mazur,G04
+K0293,Sfera Serwis Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0294,Biuro Przemysław Urbański,B2C,Południe,Jakub Krawczyk,G02
+K0295,Viva Serwis Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0296,Studio Waldemar Michalski,Detal,Zachód,Mateusz Grabowski,G04
+K0297,Lumen Serwis S.A.,B2B,Północ,Karolina Jabłońska,G01
+K0298,Sklep Artur Rosiński,B2C,Południe,Adam Michalski,G02
+K0299,Vector Serwis Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0300,Atelier Filip Sikora,Detal,Zachód,Rafał Wieczorek,G04
+K0301,Baltic Consulting Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0302,Pracownia Igor Błaszczyk,B2C,Południe,Tomasz Kowalski,G02
+K0303,Vertex Consulting S.A.,VIP,Wschód,Katarzyna Kamińska,G03
+K0304,Biuro Mariusz Sadowski,Detal,Zachód,Michał Lewandowski,G04
+K0305,Proxima Consulting Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0306,Studio Michał Kozłowski,B2C,Południe,Piotr Szymański,G02
+K0307,Vistula Consulting Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0308,Sklep Paweł Sobczak,Detal,Zachód,Paweł Woźniak,G04
+K0309,Nexus Consulting S.A.,B2B,Północ,Agnieszka Jankowska,G01
+K0310,Atelier Krzysztof Majewski,B2C,Południe,Marcin Kozłowski,G02
+K0311,Metrum Consulting Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0312,Pracownia Mateusz Pietrzak,Detal,Zachód,Krzysztof Mazur,G04
+K0313,Sfera Consulting Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0314,Biuro Rafał Czarnecki,B2C,Południe,Jakub Krawczyk,G02
+K0315,Viva Consulting S.A.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0316,Studio Daniel Nowak,Detal,Zachód,Mateusz Grabowski,G04
+K0317,Lumen Consulting Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0318,Sklep Marek Borkowski,B2C,Południe,Adam Michalski,G02
+K0319,Vector Consulting Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0320,Atelier Andrzej Krawczyk,Detal,Zachód,Rafał Wieczorek,G04
+K0321,Baltic Group S.A.,B2B,Północ,Anna Wiśniewska,G01
+K0322,Pracownia Cezary Wasilewski,B2C,Południe,Tomasz Kowalski,G02
+K0323,Vertex Group Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0324,Biuro Grzegorz Lis,Detal,Zachód,Michał Lewandowski,G04
+K0325,Proxima Group Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0326,Studio Jerzy Adamczyk,B2C,Południe,Piotr Szymański,G02
+K0327,Vistula Group S.A.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0328,Sklep Konrad Baran,Detal,Zachód,Paweł Woźniak,G04
+K0329,Nexus Group Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0330,Atelier Norbert Lewandowski,B2C,Południe,Marcin Kozłowski,G02
+K0331,Metrum Group Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0332,Pracownia Przemysław Cieślak,Detal,Zachód,Krzysztof Mazur,G04
+K0333,Sfera Group S.A.,B2B,Północ,Monika Pawłowska,G01
+K0334,Biuro Waldemar Zając,B2C,Południe,Jakub Krawczyk,G02
+K0335,Viva Group Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0336,Studio Artur Kołodziej,Detal,Zachód,Mateusz Grabowski,G04
+K0337,Lumen Group Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0338,Sklep Filip Bednarek,B2C,Południe,Adam Michalski,G02
+K0339,Vector Group S.A.,VIP,Polnoc,Natalia Nowicka,G03
+K0340,Atelier Igor Kruk,Detal,Zachód,Rafał Wieczorek,G04
+K0341,Baltic Partner Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0342,Pracownia Mariusz Zawadzki,B2C,Południe,Tomasz Kowalski,G02
+K0343,Vertex Partner Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0344,Biuro Michał Woźniak,Detal,Zachód,Michał Lewandowski,G04
+K0345,Proxima Partner S.A.,B2B,Północ,Joanna Zielińska,G01
+K0346,Studio Paweł Marciniak,B2C,Południe,Piotr Szymański,G02
+K0347,Vistula Partner Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0348,Sklep Krzysztof Wieczorek,Detal,Zachód,Paweł Woźniak,G04
+K0349,Nexus Partner Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0350,Atelier Mateusz Matuszewski,B2C,Południe,Marcin Kozłowski,G02
+K0351,Metrum Partner S.A.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0352,Pracownia Rafał Górski,Detal,Zachód,Krzysztof Mazur,G04
+K0353,Sfera Partner Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0354,Biuro Daniel Szczepański,B2C,Południe,Jakub Krawczyk,G02
+K0355,Viva Partner Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0356,Studio Marek Chmielewski,Detal,Zachód,Mateusz Grabowski,G04
+K0357,Lumen Partner S.A.,B2B,Północ,Karolina Jabłońska,G01
+K0358,Sklep Andrzej Mazur,B2C,Południe,Adam Michalski,G02
+K0359,Vector Partner Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0360,Atelier Cezary Kaźmierczak,Detal,Zachód,Rafał Wieczorek,G04
+K0361,Baltic Systemy Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0362,Pracownia Grzegorz Kaczmarek,B2C,Południe,Tomasz Kowalski,G02
+K0363,Vertex Systemy S.A.,VIP,Wschód,Katarzyna Kamińska,G03
+K0364,Biuro Jerzy Mikołajczyk,Detal,Zachód,Michał Lewandowski,G04
+K0365,Proxima Systemy Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0366,Studio Konrad Bąk,B2C,Południe,Piotr Szymański,G02
+K0367,Vistula Systemy Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0368,Sklep Norbert Kowalski,Detal,Zachód,Paweł Woźniak,G04
+K0369,Nexus Systemy S.A.,B2B,Północ,Agnieszka Jankowska,G01
+K0370,Atelier Przemysław Witkowski,B2C,Południe,Marcin Kozłowski,G02
+K0371,Metrum Systemy Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0372,Pracownia Waldemar Grabowski,Detal,Zachód,Krzysztof Mazur,G04
+K0373,Sfera Systemy Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0374,Biuro Artur Kubiak,B2C,Południe,Jakub Krawczyk,G02
+K0375,Viva Systemy S.A.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0376,Studio Filip Wróbel,Detal,Zachód,Mateusz Grabowski,G04
+K0377,Lumen Systemy Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0378,Sklep Igor Walczak,B2C,Południe,Adam Michalski,G02
+K0379,Vector Systemy Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0380,Atelier Mariusz Gajewski,Detal,Zachód,Rafał Wieczorek,G04
+K0381,Baltic Dystrybucja S.A.,B2B,Północ,Anna Wiśniewska,G01
+K0382,Pracownia Michał Szymański,B2C,Południe,Tomasz Kowalski,G02
+K0383,Vertex Dystrybucja Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0384,Biuro Paweł Urbański,Detal,Zachód,Michał Lewandowski,G04
+K0385,Proxima Dystrybucja Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0386,Studio Krzysztof Michalski,B2C,Południe,Piotr Szymański,G02
+K0387,Vistula Dystrybucja S.A.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0388,Sklep Mateusz Rosiński,detal,Zachód,Paweł Woźniak,G04
+K0389,Nexus Dystrybucja Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0390,Atelier Rafał Sikora,B2C,Południe,Marcin Kozłowski,G02
+K0391,Metrum Dystrybucja Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0392,Pracownia Daniel Błaszczyk,Detal,Zachód,Krzysztof Mazur,G04
+K0393,Sfera Dystrybucja S.A.,B2B,Północ,Monika Pawłowska,G01
+K0394,Biuro Marek Sadowski,B2C,Południe,Jakub Krawczyk,G02
+K0395,Viva Dystrybucja Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0396,Studio Andrzej Kozłowski,Detal,Zachód,Mateusz Grabowski,G04
+K0397,Lumen Dystrybucja Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0398,Sklep Cezary Sobczak,B2C,Południe,Adam Michalski,G02
+K0399,Vector Dystrybucja S.A.,VIP,Wschód,Natalia Nowicka,G03
+K0400,Atelier Grzegorz Majewski,Detal,Zachód,Rafał Wieczorek,G04
+K0401,Baltic Solutions Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0402,Pracownia Jerzy Pietrzak,B2C,Południe,Tomasz Kowalski,G02
+K0403,Vertex Solutions Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0404,Biuro Konrad Czarnecki,Detal,Zachód,Michał Lewandowski,G04
+K0405,Proxima Solutions S.A.,B2B,Północ,Joanna Zielińska,G01
+K0406,Studio Norbert Nowak,B2C,Południe,Piotr Szymański,G02
+K0407,Vistula Solutions Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0408,Sklep Przemysław Borkowski,Detal,Zachód,Paweł Woźniak,G04
+K0409,Nexus Solutions Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0410,Atelier Waldemar Krawczyk,B2C,Południe,Marcin Kozłowski,G02
+K0411,Metrum Solutions S.A.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0412,Pracownia Artur Wasilewski,Detal,Zachód,Krzysztof Mazur,G04
+K0413,Sfera Solutions Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0414,Biuro Filip Lis,B2C,Południe,Jakub Krawczyk,G02
+K0415,Viva Solutions Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0416,Studio Igor Adamczyk,Detal,Zachód,Mateusz Grabowski,G04
+K0417,Lumen Solutions S.A.,B2B,Północ,Karolina Jabłońska,G01
+K0418,Sklep Mariusz Baran,B2C,Południe,Adam Michalski,G02
+K0419,Vector Solutions Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0420,Atelier Michał Lewandowski,Detal,Zachód,Rafał Wieczorek,G04
+K0421,Baltic Trade Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0422,Pracownia Paweł Cieślak,B2C,Południe,Tomasz Kowalski,G02
+K0423,Vertex Trade S.A.,VIP,Wschód,Katarzyna Kamińska,G03
+K0424,Biuro Krzysztof Zając,Detal,Zachód,Michał Lewandowski,G04
+K0425,Proxima Trade Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0426,Studio Mateusz Kołodziej,B2C,Południe,Piotr Szymański,G02
+K0427,Vistula Trade Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0428,Sklep Rafał Bednarek,Detal,Zachód,Paweł Woźniak,G04
+K0429,Nexus Trade S.A.,B2B,Północ,Agnieszka Jankowska,G01
+K0430,Atelier Daniel Kruk,B2C,Południe,Marcin Kozłowski,G02
+K0431,Metrum Trade Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0432,Pracownia Marek Zawadzki,Detal,Zachód,Krzysztof Mazur,G04
+K0433,Sfera Trade Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0434,Biuro Andrzej Woźniak,B2C,Południe,Jakub Krawczyk,G02
+K0435,Viva Trade S.A.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0436,Studio Cezary Marciniak,Detal,Zachód,Mateusz Grabowski,G04
+K0437,Lumen Trade Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0438,Sklep Grzegorz Wieczorek,B2C,Południe,Adam Michalski,G02
+K0439,Vector Trade Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0440,Atelier Jerzy Matuszewski,Detal,Zachód,Rafał Wieczorek,G04
+K0441,Baltic Logistics S.A.,B2B,Północ,Anna Wiśniewska,G01
+K0442,Pracownia Konrad Górski,B2C,Południe,Tomasz Kowalski,G02
+K0443,Vertex Logistics Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0444,Biuro Norbert Szczepański,Detal,Zachód,Michał Lewandowski,G04
+K0445,Proxima Logistics Sp. z o.o.,B2B,Północ,Joanna Zielińska,G01
+K0446,Studio Przemysław Chmielewski,B2C,Południe,Piotr Szymański,G02
+K0447,Vistula Logistics S.A.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0448,Sklep Waldemar Mazur,Detal,Zachód,Paweł Woźniak,G04
+K0449,Nexus Logistics Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0450,Atelier Artur Kaźmierczak,B2C,Południe,Marcin Kozłowski,G02
+K0451,Metrum Logistics Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0452,Pracownia Filip Kaczmarek,Detal,Polnoc,Krzysztof Mazur,G04
+K0453,Sfera Logistics S.A.,B2B,Północ,Monika Pawłowska,G01
+K0454,Biuro Igor Mikołajczyk,B2C,Południe,Jakub Krawczyk,G02
+K0455,Viva Logistics Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0456,Studio Mariusz Bąk,Detal,Zachód,Mateusz Grabowski,G04
+K0457,Lumen Logistics Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0458,Sklep Michał Kowalski,B2C,Południe,Adam Michalski,G02
+K0459,Vector Logistics S.A.,VIP,Wschód,Natalia Nowicka,G03
+K0460,Atelier Paweł Witkowski,Detal,Zachód,Rafał Wieczorek,G04
+K0461,Baltic Technologie Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0462,Pracownia Krzysztof Grabowski,B2C,Południe,Tomasz Kowalski,G02
+K0463,Vertex Technologie Sp. z o.o.,VIP,Wschód,Katarzyna Kamińska,G03
+K0464,Biuro Mateusz Kubiak,Detal,Zachód,Michał Lewandowski,G04
+K0465,Proxima Technologie S.A.,B2B,Północ,Joanna Zielińska,G01
+K0466,Studio Rafał Wróbel,B2C,Południe,Piotr Szymański,G02
+K0467,Vistula Technologie Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0468,Sklep Daniel Walczak,Detal,Zachód,Paweł Woźniak,G04
+K0469,Nexus Technologie Sp. z o.o.,B2B,Północ,Agnieszka Jankowska,G01
+K0470,Atelier Marek Gajewski,B2C,Południe,Marcin Kozłowski,G02
+K0471,Metrum Technologie S.A.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0472,Pracownia Andrzej Szymański,Detal,Zachód,Krzysztof Mazur,G04
+K0473,Sfera Technologie Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0474,Biuro Cezary Urbański,B2C,Południe,Jakub Krawczyk,G02
+K0475,Viva Technologie Sp. z o.o.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0476,Studio Grzegorz Michalski,Detal,Zachód,Mateusz Grabowski,G04
+K0477,Lumen Technologie S.A.,B2B,Północ,Karolina Jabłońska,G01
+K0478,Sklep Jerzy Rosiński,B2C,Południe,Adam Michalski,G02
+K0479,Vector Technologie Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0480,Atelier Konrad Sikora,Detal,Zachód,Rafał Wieczorek,G04
+K0481,Baltic Serwis Sp. z o.o.,B2B,Północ,Anna Wiśniewska,G01
+K0482,Pracownia Norbert Błaszczyk,B2C,Południe,Tomasz Kowalski,G02
+K0483,Vertex Serwis S.A.,VIP,Wschód,Katarzyna Kamińska,G03
+K0484,Biuro Przemysław Sadowski,Detal,Zachód,Michał Lewandowski,G04
+K0485,Proxima Serwis Sp. z o.o.,b2b,Północ,Joanna Zielińska,G01
+K0486,Studio Waldemar Kozłowski,B2C,Południe,Piotr Szymański,G02
+K0487,Vistula Serwis Sp. z o.o.,VIP,Wschód,Magdalena Dąbrowska,G03
+K0488,Sklep Artur Sobczak,Detal,Zachód,Paweł Woźniak,G04
+K0489,Nexus Serwis S.A.,B2B,Północ,Agnieszka Jankowska,G01
+K0490,Atelier Filip Majewski,B2C,Południe,Marcin Kozłowski,G02
+K0491,Metrum Serwis Sp. z o.o.,VIP,Wschód,Ewa Kwiatkowska,G03
+K0492,Pracownia Igor Pietrzak,Detal,Zachód,Krzysztof Mazur,G04
+K0493,Sfera Serwis Sp. z o.o.,B2B,Północ,Monika Pawłowska,G01
+K0494,Biuro Mariusz Czarnecki,B2C,Południe,Jakub Krawczyk,G02
+K0495,Viva Serwis S.A.,VIP,Wschód,Aleksandra Piotrowska,G03
+K0496,Studio Michał Nowak,Detal,Zachód,Mateusz Grabowski,G04
+K0497,Lumen Serwis Sp. z o.o.,B2B,Północ,Karolina Jabłońska,G01
+K0498,Sklep Paweł Borkowski,B2C,Południe,Adam Michalski,G02
+K0499,Vector Serwis Sp. z o.o.,VIP,Wschód,Natalia Nowicka,G03
+K0500,Atelier Krzysztof Krawczyk,Detal,Zachód,Rafał Wieczorek,G04
