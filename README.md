@@ -27,7 +27,7 @@ Proces czyszczenia danych rozpoczęto od tabeli sprzedaż
 
 ![Tabela_sprzedaż](screens/Tabela_sprzedaż.png)
 ![Tabela_sprzedaż_1](screens/Tabela_sprzedaż_1.png)
-![Tabela_sprzedaż_2](screens/Tabela_sprzedaż_2.png)
+
 
 
 
