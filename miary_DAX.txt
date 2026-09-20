@@ -1,0 +1,158 @@
+SŁOWNIK MIAR DAX
+================
+
+Opis: Zestaw miar DAX dla modelu sprzedaży.
+
+
+1. Liczba transakcji
+--------------------
+Liczba transakcji = COUNTROWS(sprzedaz)
+
+
+2. Najniższa cena
+-----------------
+Najniższa cena = MIN(sprzedaz[CenaJednostkowa])
+
+
+3. Najwyższa cena
+-----------------
+Najwyższa cena = MAX(sprzedaz[CenaJednostkowa])
+
+
+4. Suma Ilości
+-------------
+Suma Ilości = SUM(sprzedaz[Ilosc])
+
+
+5. Średnia cena
+--------------
+Średnia cena = AVERAGE(sprzedaz[CenaJednostkowa])
+
+
+6. Klasa marży
+-------------
+Klasa marży =
+    IF(
+        [Marża %] >= 0.50,
+        "Wysoka",
+        IF(
+            [Marża %] >= 0.30,
+            "Średnia",
+            "Niska"
+        )
+    )
+
+
+7. Koszt sprzedaży
+------------------
+Koszt sprzedaży =
+    SUMX(
+        sprzedaz,
+        sprzedaz[Ilosc] * sprzedaz[KosztJednostkowy]
+    )
+
+
+8. Liczba klientów
+------------------
+Liczba klientów = DISTINCTCOUNT(sprzedaz[IDKlienta])
+
+
+9. Liczba pustych rabatów
+-------------------------
+Liczba pustych rabatów = COUNTBLANK(sprzedaz[Rabat])
+
+
+10. Liczba różnych produktów
+----------------------------
+Liczba różnych produktów = DISTINCTCOUNTNOBLANK(sprzedaz[IDProduktu])
+
+
+11. Marża %
+----------
+Marża % =
+    IF(
+        [Sprzedaż brutto] = 0,
+        0,
+        [Marża brutto] / [Sprzedaż brutto]
+    )
+
+
+12. Marża brutto
+---------------
+Marża brutto = [Sprzedaż brutto] - [Koszt sprzedaży]
+
+
+13. Sprzedaż brutto
+------------------
+Sprzedaż brutto =
+    SUMX(
+        sprzedaz,
+        sprzedaz[Ilosc] * sprzedaz[CenaJednostkowa]
+    )
+
+
+14. Sprzedaż netto
+-----------------
+Sprzedaż netto =
+    SUMX(
+        sprzedaz,
+        sprzedaz[Ilosc] * sprzedaz[KosztJednostkowy]
+    )
+
+
+15. Średnia liczba dni do wysyłki
+-------------------------------
+Średnia liczba dni do wysyłki = AVERAGE(sprzedaz[Dni do wysyłki])
+
+
+16. Średnia wartość transakcji
+-----------------------------
+Średnia wartość transakcji =
+    VAR liczbaTransakcji = COUNTROWS(sprzedaz)
+    VAR sprzedazBrutto =
+        SUMX(
+            sprzedaz,
+            sprzedaz[Ilosc] * sprzedaz[CenaJednostkowa]
+        )
+    RETURN
+        DIVIDE(sprzedazBrutto, liczbaTransakcji, "-")
+
+
+17. Sprzedaż w odniesieniu do kanału Online
+-------------------------------------------
+Sprzedaz w odniesieniu do kanału Online =
+    DIVIDE(
+        [Sprzedaż brutto] - [Sprzedaż brutto Online],
+        [Sprzedaż brutto Online]
+    )
+
+
+18. Sprzedaż brutto Komputery lub Tablety
+-----------------------------------------
+Sprzedaż brutto Komputery lub Tablety =
+    CALCULATE(
+        [Sprzedaż brutto],
+        produkty[Kategoria] = "Komputery"
+            || produkty[Podkategoria] = "Tablety"
+    )
+
+
+19. Sprzedaż brutto Online
+-------------------------
+Sprzedaż brutto Online =
+    CALCULATE(
+        [Sprzedaż brutto],
+        kanaly[Kanał] = "Online"
+    )
+
+
+20. Udział segmentu
+------------------
+Udział segmentu =
+    VAR sprzedazTotal =
+        CALCULATE(
+            [Sprzedaż brutto],
+            ALL(klienci[Segment])
+        )
+    RETURN
+        DIVIDE([Sprzedaż brutto], sprzedazTotal)
