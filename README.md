@@ -54,6 +54,7 @@ Tabela geografia
 ![Tabela_geografia](screens/Tabela_geografia.png)
 
 Tabela kanały
+
 ![Tabela_kanały](screens/Tabela_kanały.png)
 
 Dynamiczna tabela kalendarza
