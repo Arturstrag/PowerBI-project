@@ -1,0 +1,195 @@
+let
+    Source = Csv.Document(
+        File.Contents(#"PODAJ ŚCIEŻKĘ FOLDERU" & "produkty.csv"),
+        [Delimiter = ",", Encoding = 65001]
+    ),
+
+    #"Promoted Headers" =
+        Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+
+    #"Changed Type" =
+        Table.TransformColumnTypes(
+            #"Promoted Headers",
+            {
+                {"IDProduktu", type text},
+                {"NazwaProduktu", type text},
+                {"Kategoria", type text},
+                {"Podkategoria", type text},
+                {"Marka", type text},
+                {"CenaBazowa", type number}
+            },
+            "en-US"
+        ),
+
+    // Czyszczenie identyfikatorów i pustych marek
+    #"Cleaned Products" =
+        Table.TransformColumns(
+            #"Changed Type",
+            {
+                {"IDProduktu", each Text.Trim(_), type text},
+                {
+                    "Marka",
+                    each if _ = null or Text.Trim(_) = ""
+                         then "Others"
+                         else Text.Trim(_),
+                    type text
+                }
+            }
+        ),
+
+    #"Selected Sales Columns" =
+        Table.SelectColumns(
+            #"sprzedaz",
+            {"IDProduktu", "CenaJednostkowa"}
+        ),
+
+    #"Cleaned Sales IDs" =
+        Table.TransformColumns(
+            #"Selected Sales Columns",
+            {
+                {
+                    "IDProduktu",
+                    each if _ = null then null else Text.Trim(Text.From(_)),
+                    type nullable text
+                }
+            }
+        ),
+
+    #"Merged Queries" =
+        Table.NestedJoin(
+            #"Cleaned Products",
+            {"IDProduktu"},
+            #"Cleaned Sales IDs",
+            {"IDProduktu"},
+            "sprzedaz",
+            JoinKind.LeftOuter
+        ),
+
+    #"Expanded sprzedaz" =
+        Table.ExpandTableColumn(
+            #"Merged Queries",
+            "sprzedaz",
+            {"CenaJednostkowa"},
+            {"CenaJednostkowa"}
+        ),
+
+    #"Grouped Products" =
+        Table.Group(
+            #"Expanded sprzedaz",
+            {
+                "IDProduktu",
+                "NazwaProduktu",
+                "Kategoria",
+                "Podkategoria",
+                "Marka"
+            },
+            {
+                {
+                    "CenaBazowa",
+                    each try List.Max(List.RemoveNulls([CenaBazowa]))
+                         otherwise null,
+                    type nullable number
+                },
+                {
+                    "SredniaCenaJednostkowa",
+                    each try List.Average(
+                        List.RemoveNulls([CenaJednostkowa])
+                    ) otherwise null,
+                    type nullable number
+                }
+            }
+        ),
+
+    // Identyfikatory sprzedażowe nieobecne w pliku produkty.csv
+    ExistingIDs =
+        List.Buffer(
+            List.RemoveNulls(#"Grouped Products"[IDProduktu])
+        ),
+
+    #"Missing Product Sales" =
+        Table.SelectRows(
+            #"Cleaned Sales IDs",
+            each
+                [IDProduktu] <> null
+                and [IDProduktu] <> ""
+                and not List.Contains(ExistingIDs, [IDProduktu])
+        ),
+
+    #"Grouped Missing Products" =
+        Table.Group(
+            #"Missing Product Sales",
+            {"IDProduktu"},
+            {
+                {
+                    "SredniaCenaJednostkowa",
+                    each try List.Average(
+                        List.RemoveNulls([CenaJednostkowa])
+                    ) otherwise null,
+                    type nullable number
+                }
+            }
+        ),
+
+    #"Added Missing Name" =
+        Table.AddColumn(
+            #"Grouped Missing Products",
+            "NazwaProduktu",
+            each "Others",
+            type text
+        ),
+
+    #"Added Missing Category" =
+        Table.AddColumn(
+            #"Added Missing Name",
+            "Kategoria",
+            each "Others",
+            type text
+        ),
+
+    #"Added Missing Subcategory" =
+        Table.AddColumn(
+            #"Added Missing Category",
+            "Podkategoria",
+            each "Others",
+            type text
+        ),
+
+    #"Added Missing Brand" =
+        Table.AddColumn(
+            #"Added Missing Subcategory",
+            "Marka",
+            each "Others",
+            type text
+        ),
+
+    #"Added Missing Base Price" =
+        Table.AddColumn(
+            #"Added Missing Brand",
+            "CenaBazowa",
+            each null,
+            type nullable number
+        ),
+
+    #"Reordered Missing Columns" =
+        Table.ReorderColumns(
+            #"Added Missing Base Price",
+            {
+                "IDProduktu",
+                "NazwaProduktu",
+                "Kategoria",
+                "Podkategoria",
+                "Marka",
+                "CenaBazowa",
+                "SredniaCenaJednostkowa"
+            }
+        ),
+
+    Result =
+        Table.Combine(
+            {
+                #"Grouped Products",
+                #"Reordered Missing Columns"
+            }
+        )
+in
+    Result

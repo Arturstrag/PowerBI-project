@@ -1,0 +1,27 @@
+let
+    Source = #"sprzedaz",
+    EndDate = Date.FromText(Text.From(List.Max(Source[DataSprzedazy]))),
+    StartDate = Date.FromText(Text.From(List.Min(Source[DataSprzedazy]))),
+    Dates = List.Dates(
+        StartDate,
+        Duration.Days(EndDate - StartDate) + 1,
+        #duration(1, 0, 0, 0)
+    ),
+    Result = Table.FromList(
+        Dates,
+        Splitter.SplitByNothing(),
+        {"Data"}
+    ),
+    #"Changed Type" = Table.TransformColumnTypes(
+        Result,
+        {{"Data", type date}}
+    ),
+    #"Inserted Year" = Table.AddColumn(#"Changed Type", "Rok", each Date.Year([Data]), Int64.Type),
+    #"Inserted Month" = Table.AddColumn(#"Inserted Year", "NumerMiesiaca", each Date.Month([Data]), Int64.Type),
+    #"Inserted Month Name" = Table.AddColumn(#"Inserted Month", "Miesiac", each Date.MonthName([Data], "pl-PL"), type text),
+    #"Inserted Day of Week" = Table.AddColumn(#"Inserted Month Name", "NumerDniaTygodnia", each Date.DayOfWeek([Data]), Int64.Type),
+    #"Added to Column" = Table.TransformColumns(#"Inserted Day of Week", {{"NumerDniaTygodnia", each _ + 1, type number}}),
+    #"Inserted Day Name" = Table.AddColumn(#"Added to Column", "DzienTygodnia", each Date.DayOfWeekName([Data], "pl-PL"), type text),
+    #"Capitalized Each Word" = Table.TransformColumns(#"Inserted Day Name",{{"Miesiac", Text.Proper, type text}, {"DzienTygodnia", Text.Proper, type text}})
+in
+    #"Capitalized Each Word"

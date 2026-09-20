@@ -1,0 +1,7 @@
+let
+    Source = sprzedaz,
+    #"Removed Other Columns" = Table.SelectColumns(Source,{"IDKanalu", "Kanal", "TypKanalu"}),
+    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns"),
+    #"Renamed Columns" = Table.RenameColumns(#"Removed Duplicates",{{"Kanal", "Kanał"}})
+in
+    #"Renamed Columns"

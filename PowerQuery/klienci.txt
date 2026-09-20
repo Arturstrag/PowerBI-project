@@ -1,0 +1,9 @@
+let
+  Source = Csv.Document(File.Contents(#"PODAJ ŚCIEŻKĘ FOLDERU"&"klienci.csv"), [Delimiter = ",", Encoding = 65001]),
+    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"IDKlienta", type text}, {"NazwaKlienta", type text}, {"Segment", type text}, {"Region", type text}, {"Opiekun", type text}}),
+    #"Replaced Value" = Table.ReplaceValue(#"Changed Type1","Polnoc","Północ",Replacer.ReplaceText,{"Region"}),
+    #"Uppercased Text" = Table.TransformColumns(#"Replaced Value",{{"Segment", Text.Upper, type text}}),
+    #"Replaced Value1" = Table.ReplaceValue(#"Uppercased Text","DETAL","Detal",Replacer.ReplaceText,{"Segment"})
+in
+    #"Replaced Value1"
