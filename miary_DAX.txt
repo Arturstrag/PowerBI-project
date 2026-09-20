@@ -156,3 +156,70 @@ Udział segmentu =
         )
     RETURN
         DIVIDE([Sprzedaż brutto], sprzedazTotal)
+
+
+
+21. Dynamika sprzedaży YoY %
+---------------------------
+Dynamika sprzedaży YoY % =
+    DIVIDE(
+        [Zmiana sprzedaży YoY],
+        [Sprzedaż brutto LY]
+    )
+
+
+22. Kolor Produktu
+------------------
+Kolor Produktu =
+    IF(
+        [Ranking Produktu] <= 5,
+        "#0d6abf",   -- granatowy
+        "#555555"    -- ciemny szary
+    )
+
+
+23. Ranking Produktu
+-------------------
+Ranking Produktu =
+    RANKX(
+        ALL('produkty'[NazwaProduktu]),
+        [Sprzedaż brutto],
+        ,
+        DESC
+    )
+
+
+24. Sprzedaż brutto LY
+---------------------
+Sprzedaż brutto LY =
+    CALCULATE(
+        [Sprzedaż brutto],
+        SAMEPERIODLASTYEAR(kalendarz[Data])
+    )
+
+
+25. Udział anulowanych zamówień %
+--------------------------------
+Udział anulowanych zamówień % =
+    DIVIDE(
+        CALCULATE(
+            [Liczba transakcji],
+            sprzedaz[StatusZamowienia] = "Cancelled"
+        ),
+        [Liczba transakcji]
+    )
+
+
+26. Średnia liczba produktów w transakcji
+----------------------------------------
+Średnia liczba produktów w transakcji =
+    DIVIDE(
+        [Suma ilości],
+        [Liczba transakcji]
+    )
+
+
+27. Zmiana sprzedaży YoY
+-----------------------
+Zmiana sprzedaży YoY =
+    [Sprzedaż brutto] - [Sprzedaż brutto LY]
