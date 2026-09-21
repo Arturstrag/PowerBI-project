@@ -1,4 +1,4 @@
-# PowerBI-project
+# Sales-Performance-Analysis
 
 Narzędzia: Microsoft Power BI, Power Query, DAX
 
@@ -132,3 +132,9 @@ Najważniejsze wnioski wynikające z analizy są następujące:
 - sprzedaż jest silnie zróżnicowana według produktów i regionów, a niektóre obszary generują zdecydowanie większą wartość niż inne,
 - sezonowość ma duże znaczenie dla wyników, dlatego planowanie sprzedaży powinno uwzględniać cykle miesięczne,
 - realizacja zamówień jest na wysokim poziomie, a udział zamówień anulowanych jest niski. 
+
+
+## Podsumowanie 
+Projekt przedstawia kompleksową analizę sprzedaży fikcyjnej firmy z wykorzystaniem narzędzi Microsoft Power BI, Power Query i DAX. Dane zostały przygotowane w formie modelu gwiazdy, obejmującego sprzedaż, klientów, produkty, kanały, geograﬁę, kalendarz i cele miesięczne. W ramach raportu zbadano dynamikę przychodów, rentowność, strukturę kanałów sprzedaży, udział segmentów klientów oraz wyniki regionalne i produktowe.
+
+Raport umożliwia monitorowanie kluczowych wskaźników KPI, ocenę efektywności działań sprzedażowych oraz identyfikację obszarów wymagających optymalizacji. Dzięki analizie danych możliwe jest podejmowanie bardziej świadomych decyzji w zakresie strategii sprzedaży, obsługi klienta i zarządzania asortymentem.
