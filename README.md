@@ -115,7 +115,7 @@ Raport prezentuje wyniki sprzedaży firmy w okresie od stycznia 2025 do grudnia 
 - Liczba klientów i liczba różnych produktów — zasięg i struktura oferty,
 - Udział kanałów sprzedaży — udział poszczególnych kanałów w przychodach,
 - Udział segmentów klientów — udział klienta w całkowitej sprzedaży,
-- Dynamika YoY — zmiana sprzedaży względem poprzedniego roku.
+- Dynamika YoY % — zmiana sprzedaży względem poprzedniego roku.
   
 ![Raport strona 1](images/Strona_1.png)
 ![Raport strona 2](images/Strona_2.png)
