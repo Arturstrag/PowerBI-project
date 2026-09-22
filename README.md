@@ -3,14 +3,14 @@
 Narzędzia: Microsoft Power BI, Power Query, DAX
 
 ## Opis projektu 
-Projekt przedstawia analizę symulowanych danych sprzedażowych fikcyjnej firmy działającej na polskim rynku. Zbiór obejmuje ponad 16 tys. rekordów w 6 powiązanych tabelach, zawierających dane dotyczące sprzedaży, klientów, produktów, kanałów sprzedaży, geografii, kalendarza oraz miesięcznych celów sprzedażowych.
+Projekt przedstawia analizę symulowanych danych sprzedażowych fikcyjnej firmy działającej na polskim rynku. Zbiór obejmuje ponad **16 tys**. rekordów w **6** powiązanych tabelach, zawierających dane dotyczące sprzedaży, klientów, produktów, kanałów sprzedaży, geografii, kalendarza oraz miesięcznych celów sprzedażowych.
 
-Główna tabela transakcyjna zawiera 15 000 rekordów sprzedaży, natomiast pozostałe tabele pełnią funkcję tabel wymiarów oraz danych pomocniczych. Dane obejmują okres od stycznia 2025 do grudnia 2026, czyli 24 miesiące historii sprzedaży.
+Główna tabela transakcyjna zawiera **15 000** rekordów sprzedaży, natomiast pozostałe tabele pełnią funkcję tabel wymiarów oraz danych pomocniczych. Dane obejmują okres od stycznia 2025 do grudnia 2026. 
 
 ## Cel biznesowy
 Głównym celem projektu było stworzenie interaktywnego raportu umożliwiającego analizę:
 
-- monitorowanie wyników sprzedaży w latach 2025–2026,
+- monitorowanie wyników sprzedaży w latach **2025–2026**,
 - ocena rentowności i marży,
 - analiza udziału kanałów sprzedaży i segmentów klientów,
 - identyfikacja najlepszych i najsłabszych produktów,
@@ -74,7 +74,7 @@ Tabela została wzbogacona m.in. o rok, numer i nazwę miesiąca, numer dnia tyg
 
 ![Tabela_kalendarz](screens/Tabela_kalendarz.png)
 
-Kod transformacji danych języku M znajduje się w folderze ETL 
+Kod transformacji danych w języku M znajduje się w folderze **ETL**.
 
 ## Model danych
 
@@ -90,7 +90,7 @@ W dalszym etapie do modelu została dołączona także tabela miesięcznych cel�
 
 ## Analiza danych za pomocą DAX
 
-W ramach projektu zbudowano zestaw miar DAX, które pozwalają na obliczanie:
+W ramach projektu zbudowano zestaw miar DAX, które pozwalają na obliczanie między innymi:
 
 - sumy ilości sprzedanych produktów,
 - sprzedaży brutto i netto,
@@ -101,7 +101,7 @@ W ramach projektu zbudowano zestaw miar DAX, które pozwalają na obliczanie:
 - udziału kanałów i segmentów klientów,
 - średniego czasu od sprzedaży do wysyłki.
 
-Pełny słownik miar w języku DAX znajduje się w pliku measures_DAX.txt
+Pełny słownik miar w języku DAX znajduje się w pliku **measures_DAX.txt**
 
 
 ## Wyniki 
@@ -122,19 +122,41 @@ Raport prezentuje wyniki sprzedaży firmy w okresie od stycznia 2025 do grudnia 
 ![Raport strona 3](images/Strona_3.png)
 
 ## Wnioski 
-Wnioski
 Najważniejsze wnioski wynikające z analizy są następujące:
 
-- sprzedaż rośnie dynamicznie, co wskazuje na poprawę efektywności handlowej i wzrost skali działalności,
-- marża procentowa utrzymuje się na wysokim poziomie,
-- największy udział w przychodach mają kanały partnerskie i online, co sugeruje przewagę modelu sprzedaży cyfrowej i opartej na partnerstwach,
-- najważniejszą rolę odgrywają segmenty klientów B2B i VIP,
-- sprzedaż jest silnie zróżnicowana według produktów i regionów, a niektóre obszary generują zdecydowanie większą wartość niż inne,
-- sezonowość ma duże znaczenie dla wyników, dlatego planowanie sprzedaży powinno uwzględniać cykle miesięczne,
-- realizacja zamówień jest na wysokim poziomie, a udział zamówień anulowanych jest niski. 
+- Dynamiczny wzrost sprzedaży. Wzrost o **156%** w stosunku do poprzedniego roku. Wysoki wzrost sprzedaży wynika z tego, że w roku 2025 sprzedaż wynosiła **2,87 mln zł** a w roku 2026 **7,35 mln zł**. Poziom sprzedaży do roku poprzedniego wynosi **256%**.
+- Średnia wartość transakcji jest w graniach — około **650–710 zł** — podczas gdy sprzedaż miesięczna silnie się zmienia. Wzrost jest więc napędzany przede wszystkim większą liczbą transakcji. Najwyższą średnią wartość transakcji osiąga wrzesień. Wynosi ona **711,39 zł**. Najniższy wynik ma marzec — **638,09 zł**.
+- Marża procentowa utrzymuje się na poziomie **50%**,
+- Widoczna jest silna sezonowość. Łącznie za 2025-2026 najlepszym miesiącem jest listopad: **2,16 mln zł** i **3 168** transakcji. Październik osiąga **1,69 mln zł**, a grudzień **1,28 mln zł**. Szczyt popytu przypada zatem na IV kwartał. 
+- Sprzedaż jest silnie skoncentrowana w kanałach **Partner** i **Online**, które odpowiadają łącznie za **76,38%** sprzedaży brutto. Udział Sklepu wynosi **17,06%**, a Telefonu tylko **6,56%**.
+- Najważniejszą rolę odgrywają segmenty klientów **B2B** i **VIP**. Segmenty te odpowiadają łącznie za **73,17%** przychodów:
+- Sprzedaż jest silnie zróżnicowana regionalnie: Południe generuje **49,95%** sprzedaży brutto, Zachód **31,95%**, Wschód **11,12%**, a Północ **6,98%**. Dwa największe regiony odpowiadają łącznie za **81,90%** sprzedaży.
+- Najlepiej sprzedającym się produktem jest **P013**, generujący **563,99 tys. zł**, natomiast pięć najlepszych produktów odpowiada łącznie za **24,40%** sprzedaży. Najsłabszy produkt, **P027**, osiąga **61,14 tys. zł**.
+- Realizacja zamówień jest na wysokim poziomie: **84,93%** zamówień zostało zrealizowanych, **9,47%** jest w realizacji, a jedynie **5,60%** anulowano.
+
+## Rekomendacje biznesowe
+- Należy wzmocnić sprzedaż w regionach Wschód i Północ. Warto przeanalizować dostępność produktów, aktywność handlowców i skuteczność lokalnych kampanii.
+- Zabezpieczyć regiony Południe i Zachód. Odpowiadają za **81,90%** sprzedaży, dlatego należy rozwijać programy lojalnościowe i utrzymywać odpowiednie zapasy.
+- Skoncentrować inwestycje na kanałach **Partner** i **Online**.
+Generują łącznie **76,38%** sprzedaży. Warto zwiększyć budżet marketingowy online i premiować najskuteczniejszych partnerów.
+- Poprawić efektywność Sklepu i Telefonu. Łączny udział wynosi tylko **23,62%**. Należy ocenić rentowność tych kanałów, wdrożyć sprzedaż krzyżową. Wykorzystać sezonowość IV kwartału
+- Zapasy, obsadę i kampanie należy zwiększać przed październikiem. Listopad generuje najwyższą sprzedaż łącznie za lata **2025–2026**.
+- Rozwijać sprzedaż produktów o wysokiej marży
+- Akcesoria osiągają najwyższą marżę — **54%**. Dobrym działaniem będzie oferowanie ich w pakietach z elektroniką i komputerami.
+- Zmniejszyć udział anulowanych zamówień. Obecny poziom to **5,60%**. Należy przeanalizować anulowania według produktu, kanału i regionu. 
 
 
 ## Podsumowanie 
-Projekt przedstawia kompleksową analizę sprzedaży fikcyjnej firmy z wykorzystaniem narzędzi Microsoft Power BI, Power Query i DAX. Dane zostały przygotowane w formie modelu gwiazdy, obejmującego sprzedaż, klientów, produkty, kanały, geograﬁę, kalendarz i cele miesięczne. W ramach raportu zbadano dynamikę przychodów, rentowność, strukturę kanałów sprzedaży, udział segmentów klientów oraz wyniki regionalne i produktowe.
+Analiza sprzedaży za lata 2025–2026 pozwoliła ocenić dynamikę przychodów, rentowność kategorii, znaczenie kanałów i segmentów klientów oraz skuteczność realizacji zamówień. Przed analizą dane zostały oczyszczone i ujednolicone w Power Query. Badanie objęło 14 811 transakcji, jednak dalszego uporządkowania wymagają produkty przypisane do grupy „Others”.
 
-Raport umożliwia monitorowanie kluczowych wskaźników KPI, ocenę efektywności działań sprzedażowych oraz identyfikację obszarów wymagających optymalizacji. Dzięki analizie danych możliwe jest podejmowanie bardziej świadomych decyzji w zakresie strategii sprzedaży, obsługi klienta i zarządzania asortymentem.
+Najważniejsze wnioski z analizy wskazują, że:
+- Sprzedaż znajduje się w fazie dynamicznego wzrostu. Sprzedaż brutto zwiększyła się z **2,87 mln zł** w 2025 roku do **7,35 mln zł** w 2026 roku, co oznacza wzrost o 156,09%. 
+- Sprzedaż jest silnie skoncentrowana w kanałach Partner i Online. Kanał Partner odpowiada za **39,51%**, a Online za **36,88%** sprzedaży brutto. Łącznie generują one **76,38%** wyniku, podczas gdy udział Sklepu wynosi **17,06%**, a Telefonu **6,56%**. Dalsze inwestycje powinny koncentrować się na najbardziej efektywnych kanałach, przy jednoczesnej ocenie rentowności pozostałych.
+- Segmenty VIP i B2B stanowią podstawę przychodów firmy. Generują łącznie **73,17%** sprzedaży, co uzasadnia rozwijanie indywidualnej obsługi, ofert lojalnościowych i działań retencyjnych. Tak wysoka koncentracja oznacza jednak również zależność od ograniczonej grupy klientów.
+- Wyniki sprzedaży są silnie zróżnicowane regionalnie. Południe odpowiada za **49,95%**, a Zachód za **31,95%** sprzedaży brutto. Łącznie regiony te generują **81,90%** wyniku, podczas gdy udział Wschodu i Północy wynosi jedynie **18,10%**. Wymaga to zarówno ochrony pozycji w regionach kluczowych, jak i zbadania potencjału wzrostu na słabszych rynkach.
+- Wysoka sprzedaż elektroniki nie przekłada się na najwyższą rentowność. Elektronika generuje największą wartość sprzedaży — **3,62 mln zł** — ale jej marża wynosi **48%**. Akcesoria osiągają natomiast najwyższą marżę, wynoszącą **54%**. Uzasadnia to rozwijanie sprzedaży pakietowej i cross-sellingu akcesoriów z elektroniką oraz komputerami.
+- Sprzedaż wykazuje wyraźną sezonowość. W danych łącznie za lata 2025–2026 najlepszym miesiącem był listopad, osiągający **2,16 mln zł** i **3 168** transakcji. Wzrost popytu w IV kwartale wskazuje na potrzebę wcześniejszego przygotowania zapasów, obsady oraz kampanii marketingowych.
+- Proces realizacji zamówień funkcjonuje na dobrym poziomie. Zrealizowano **84,93%** zamówień, **9,47%** pozostaje w realizacji, a **5,60%** anulowano. Warto przeanalizować anulowania według kanału, produktu i regionu oraz dążyć do obniżenia ich udziału poniżej **4%**.
+- Jakość danych produktowych wymaga dalszej poprawy. Produkty P031–P050 zostały zagregowane jako „Others”, przez co grupa ta odpowiada za znaczną część sprzedaży i utrudnia identyfikację rzeczywistych liderów asortymentu. Przed podejmowaniem szczegółowych decyzji produktowych należy uzupełnić ich nazwy, marki i kategorie.
+  
+Podsumowując, firma osiąga dynamiczny wzrost przy wysokiej, około **50%** marży. Największy potencjał dalszego rozwoju stanowią kanały Partner i Online, segmenty VIP i B2B, rentowne akcesoria oraz odpowiednie wykorzystanie sezonu jesiennego. Kluczowymi wyzwaniami pozostają koncentracja sprzedaży, rozwój słabszych regionów, ograniczenie anulowań oraz poprawa jakości danych produktowych.
